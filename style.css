@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #4a0404, #7a0a0a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff5f5;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  transition: 0.4s ease;
+}
+
+.heart {
+  font-size: 5.5rem;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+  user-select: none;
+}
+
+.hint {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+/* Decorations */
+.decorations span {
+  position: absolute;
+  font-size: 3rem;
+  opacity: 0.25;
+}
+
+.tree:nth-child(1) { top: 10%; left: 8%; }
+.tree:nth-child(2) { bottom: 12%; right: 10%; }
+.deer:nth-child(3) { top: 15%; right: 12%; }
+.deer:nth-child(4) { bottom: 15%; left: 12%; }
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
