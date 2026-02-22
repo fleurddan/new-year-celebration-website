@@ -18,7 +18,7 @@ The project is designed to transform a standard text greeting into a structured 
 
 ## Live Demo
 Deployed using GitHub Pages:
-**(https://fleurddan.github.io/new-year-celebration-website/)**
+**(https://zehrakurddan.github.io/new-year-celebration-website/)**
 
 ## Customization
 1. Clone the repository.
